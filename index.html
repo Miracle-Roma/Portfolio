@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    <div class="portfolio portfoli">
+    <div class="default" id="main" >
         <div class="top-forfolio top-portfoli">
             
             <div class="top-portfolio-one">
-                <img src="./images/Vector.png" alt="rasm" class="image">
+                <img src="./images/Vector.png" alt="rasm" id="change" class="image" onclick="cancelEvent()">
                 <div class="roma-top">
                     <img class="top-portfolio-img" src="./images/my-photo.jpg" alt="Rasm">
                     <h1>Rahmatjon Hamroqulov</h1>
@@ -37,8 +37,8 @@
                     </ul>
                 </div>
                 <div class="portfolio-skills">
-                    <ul class="ul-portfolio-skills"> 
-                        <li class="one-li-portfolio-skills">Portfolio</li>
+                    <ul class="ul-portfolio-skills port"> 
+                        <li class="one-li-portfolio-skills ulport" id="liskil">Portfolio</li>
                         <li class="two-li-portfolio-skills">Skills</li>
                     </ul>
                 </div>
